@@ -1,0 +1,135 @@
+*
+{
+    margin:0%;
+    padding:0%;
+
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: pink;
+    border-bottom: 1px solid yellow;
+}
+
+.header .item {
+    display:flex 1;
+    text-align: left;
+}
+
+.header .item h1 {
+    margin: 0;
+    font-size: px;
+}
+
+.header .item input {
+    width: 80%;
+    padding: 7px;
+    font-size: 16px;
+}
+
+.header .item button {
+    padding: 10px 50px;
+    margin: 0 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.heading {
+    background-color:purple;
+    padding: 10px 0;
+}
+
+.headings ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.headings ul li a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+
+.headings ul li a:hover {
+    text-decoration: underline;
+
+}
+
+/* Image Section Styles */
+.image {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 50px;
+    background-color:white;
+}
+
+.pic {
+    text-align: center;
+    margin:20px;
+}
+
+.pic img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 20px;
+}
+
+.pic h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.pic h3 {
+    font-size: 18px;
+    color: #888;
+    margin: 5px 0;
+}
+
+.pic button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+/* footer styles */
+.footer{
+background-color:#333;
+color: #fff;
+padding: 20px 50px;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.footer .item{
+    margin: 0 10px;
+    flex: 1;
+}
+.footer .item h2{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.footer .item p{
+    font-size: 16px;
+    color: #888;
+}
